@@ -1,0 +1,37 @@
+# FASTQ and output files
+*.fastq
+*.fastq.gz
+*.fna
+*.faa
+*.gff
+*.bam
+*.sam
+*.vcf
+
+# Output reports
+*.html
+*.log
+*.csv
+*.tsv
+*.zip
+
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Env files
+.env
+.venv/
+*.conda
+*.egg-info/
+
+# Jupyter Notebook runtime
+*.nbconvert.ipynb
+
+# Docker and system junk
+.dockerignore
+.DS_Store
+Thumbs.db
