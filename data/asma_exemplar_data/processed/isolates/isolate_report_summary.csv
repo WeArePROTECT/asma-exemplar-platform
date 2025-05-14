@@ -1,0 +1,2 @@
+isolate_id,submitter,status,Complete (%),Missing (%),CDS,tRNA,rRNA,Total Proteins,Average Protein Length,num_amr_genes,num_vf_genes,many_short_proteins
+ASMA-1,Alex Styer,OK,99.1,0.0,2222,49,4,2222,329.05,0.0,1123,False

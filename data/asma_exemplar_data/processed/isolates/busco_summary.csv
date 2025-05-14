@@ -1,0 +1,2 @@
+isolate_id,Complete (%),Single (%),Duplicated (%),Fragmented (%),Missing (%),Total BUSCOs,Scaffolds,Contigs,Genome Length (bp),Gap %,Scaffold N50 (kb),Contig N50 (kb)
+ASMA-1,99.1,99.1,0.0,0.9,0.0,116,39,44,2577249,0.005%,501,253

@@ -1,0 +1,33 @@
+isolate_id: ASMA-1
+submitter: Alex Styer
+source: airway isolate
+date_received: 2025-05-13
+
+raw_reads:
+  forward: raw_reads/ASMA-1_R1.fastq.gz
+  reverse: raw_reads/ASMA-1_R2.fastq.gz
+
+assembly:
+  tool: SPAdes
+  file: assembly/ASMA-1_genome.fna
+
+annotation:
+  tool: Prokka
+  gff: annotation/ASMA-1.gff
+  proteins: annotation/ASMA-1.faa
+
+quality:
+  method: BUSCO
+  lineage: bacteria_odb12
+  file: quality/BUSCO_short_summary.txt
+
+amr:
+  tool: AMRFinder
+  file: amr/ASMA-1_amr.tsv
+
+vf:
+  tool: VFDB
+  file: vf/ASMA-1_vf.tsv
+
+notes: |
+  Folder layout based on ASMA schema. More outputs expected from additional tools.

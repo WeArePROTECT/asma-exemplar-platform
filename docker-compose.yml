@@ -1,0 +1,13 @@
+version: '3'
+services:
+  protect_asma:
+    build: .
+    container_name: protect-asma
+    volumes:
+      - ./data:/app/data
+      - ./notebooks:/app/notebooks
+      - ./scripts:/app/scripts
+    working_dir: /app
+    ports:
+      - "8888:8888"
+    command: start-notebook.sh --NotebookApp.token=''
