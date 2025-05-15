@@ -34,51 +34,64 @@ protect_asma_exemplar_platform/
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
+```
 
-🐳 Quickstart
-1. Build and Launch JupyterLab
-bash
-Copy
-Edit
+---
+
+## 🐳 Quickstart
+
+### 1. Build and Launch JupyterLab
+
+```bash
 docker-compose up --build
-Then open http://localhost:8888 to begin.
+```
 
-2. Run a Pipeline by Data Type
-From inside the container or terminal:
+Then open your browser to [http://localhost:8888](http://localhost:8888) to begin.
 
-bash
-Copy
-Edit
-# Example: Run isolate pipeline
+---
+
+### 2. Run a Pipeline by Data Type
+
+From inside the container or a terminal window:
+
+```bash
+# Example: Run the isolate pipeline
 python /app/scripts/run_exemplar_pipeline.py --type isolates --input /app/data/asma_exemplar_data/raw/isolates
+```
+
 Outputs will be saved to:
 
-swift
-Copy
-Edit
+```
 /app/data/asma_exemplar_data/processed/isolates/
-📄 Output Files
-For isolates, the following files are produced:
+```
 
-isolate_qc_summary.csv – Folder and file structure validation
+---
 
-busco_summary.csv – Genome completeness and assembly stats
+## 📄 Output Files (Isolates)
 
-faa_summary.csv, gff_summary.csv – Annotation summaries
+Each isolate run will generate the following:
 
-amr_matrix.csv, vf_matrix.csv – Gene presence/absence matrices
+- `isolate_qc_summary.csv` – Folder and file structure validation
+- `busco_summary.csv` – Genome completeness and assembly stats
+- `faa_summary.csv`, `gff_summary.csv` – Annotation summaries
+- `amr_matrix.csv`, `vf_matrix.csv` – Gene presence/absence matrices
+- `isolate_master_summary.csv` – Full merged metadata and QC results
+- `isolate_report_summary.csv` – Report-friendly view (for sharing)
+- `isolate_pipeline_log_<timestamp>.csv` – Run log of pipeline execution
 
-isolate_master_summary.csv – Full merged metadata and QC results
+---
 
-isolate_report_summary.csv – Filtered summary for presentation
+## 🙌 Contributions
 
-isolate_pipeline_log_<timestamp>.csv – Batch processing log
+Want to help expand support for MAGs, metaT, visualization dashboards, or cloud support?
 
-🙌 Contributions
-Want to help expand support for MAGs, metaT, or visualization dashboards?
+PRs, issues, and feature requests are welcome!  
+Please open an issue or reach out directly — we’d love your input.
 
-PRs, ideas, and feature requests are welcome! Please open an issue or reach out directly.
+---
 
-👨‍🔬 Maintainer
-Spencer Long
-Data Scientist @ WeArePROTECT
+## 👨‍🔬 Maintainer
+
+**Spencer Long**  
+Data Scientist @ WeArePROTECT  
+🌐 [LinkedIn](https://www.linkedin.com/in/spencer42long)
