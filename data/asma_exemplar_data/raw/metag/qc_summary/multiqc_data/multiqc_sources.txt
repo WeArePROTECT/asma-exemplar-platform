@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	PRO2_metaG	/app/data/asma_exemplar_data/raw/metag/qc/PRO2_metaG_fastqc.zip
+FastQC	all_sections	PRO3_metaG	/app/data/asma_exemplar_data/raw/metag/qc/PRO3_metaG_fastqc.zip
+FastQC	all_sections	PRO5_metaG	/app/data/asma_exemplar_data/raw/metag/qc/PRO5_metaG_fastqc.zip
+FastQC	all_sections	PRO8_metaG	/app/data/asma_exemplar_data/raw/metag/qc/PRO8_metaG_fastqc.zip
