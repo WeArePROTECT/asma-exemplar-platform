@@ -38,3 +38,6 @@ Thumbs.db
 
 #Others
 *.gz
+
+#metadata files
+!data/asma_exemplar_data/raw/metadata/zengler_lab_sra_metadata_template.csv
