@@ -1,0 +1,2 @@
+sample_id,subject_id,sample_type,collection_site,collection_method,collection_date,storage_conditions,project_id,sequencing_platform,read_length,adapter_sequence,rRNA_depletion_protocol,host_depletion_method,submitted_by,processing_protocol,file_type,data_type
+PRO15_metaG,,sputum,lower respiratory tract,spontaneous expectoration,,,,Illumina,PE 100 bp,,,,Zengler Lab,,Fastq,metaG
