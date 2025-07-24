@@ -42,3 +42,5 @@ Thumbs.db
 #metadata files
 !data/asma_exemplar_data/raw/metadata/zengler_lab_sra_metadata_template.csv
 !data/asma_exemplar_data/raw/metadata/zengler_lab_additional_core_metadata_template.csv
+!data/asma_exemplar_data/raw/metadata/zengler_lab_metag_metadata_template.csv
+
