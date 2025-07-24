@@ -49,8 +49,6 @@ This metadata supports:
 ## 🔗 Related Resources
 
 - [ASMA Project Overview (UCB internal)](https://your.internal.link)
-- [RNAseq Protocol Examples on Protocols.io](https://www.protocols.io/)
-- [Strand-specific library prep info](https://www.neb.com/)
 
 ---
 
