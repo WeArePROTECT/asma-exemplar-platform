@@ -1,0 +1,2 @@
+rna_extraction_kit,input_sample_vol,depth_target,rrna_depletion_kit,library_preparation_protocol,cdna_conversion_method,strand_specific,fragment_size,rRNA_content_percent,mapping_rate_to_db
+Qiagen RNeasy Mini,~500 ul,50 M,QIAseq FastSelect –5S/16S/23S Kit (Qiagen),KAPA RNA HyperPrep Kit (Roche),,,,,
