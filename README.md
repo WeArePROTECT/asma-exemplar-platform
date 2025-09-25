@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./ProtectBanner.png" alt="Protect Banner"/>
+  <img src="./ProtectBanner_whitebg.png" alt="Protect Banner"/>
 </p>
 
 # ASMA Exemplar Platform 🚀  
