@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./ProtectBanner.png" alt="Protect Banner"/>
+</p>
+
 # ASMA Exemplar Platform 🚀  
 **Dockerized, scalable pipeline for processing exemplar microbiome data types**  
 Built by the [WeArePROTECT](https://github.com/WeArePROTECT) team for the ARPA-H ASMA project.
